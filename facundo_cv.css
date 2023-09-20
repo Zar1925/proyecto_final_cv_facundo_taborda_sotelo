@@ -1,0 +1,154 @@
+#body{
+    margin: 0;
+}
+
+#contenedor{
+    background-color: rgb(199, 232, 243);
+    width: 900px;
+    margin: 0 auto;
+    line-height: 200%;
+    letter-spacing: 1.5px;
+    word-spacing: 0.5px;
+    text-align: center;
+    float: left;
+}
+
+#caja1{
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    border: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+#caja2{
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    border: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+#contenedor img{
+    width: 75%;
+    margin: 0 10%;
+}
+
+#contenedor a{
+    color: rgb(6, 38, 145);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    font-size: 20px;
+    text-decoration: line;
+}
+
+h1{
+    font-weight: 20px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(48, 7, 88);
+    text-align: center; 
+}
+
+h2{
+    font-weight: 20px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    color: rgb(115, 41, 189);
+    text-align: center;
+}
+
+h3{
+    font-weight: 20px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    color: rgb(115, 41, 189);
+    text-align: center;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    color: rgb(10, 5, 15);
+    text-align: end;
+    margin: 0 10px;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    color: rgb(112, 74, 150);
+    text-align: center;
+}
+
+#contenedor >  div{
+    float: left;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    color: rgb(214, 86, 27);
+}
+
+#contenedor a{
+    font-weight: 20px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    background-color: papayawhip;
+    color: rgb(10, 5, 15);
+    text-align: center;
+    text-decoration: line;
+}
+
+#contenedor a:hover{
+    color: rgb(151, 185, 28);
+}
+
+p a{
+    font-weight: 20px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    background-color: papayawhip;
+    color: rgb(10, 5, 15);
+    text-align: center;
+    text-decoration: line;
+}
+
+p li a:hover{
+    color: rgb(17, 177, 2);
+}
+
+#contenedor ul{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    color: rgb(115, 41, 189);
+    list-style-type: none;
+}
+
+ul li a:hover{
+    text-align: center;
+    color: rgb(26, 236, 138);
+}
+
+#contenedor form{
+    text-align: center;
+    color: rgb(224, 19, 19);
+}
+
+#contenedor footer{
+    margin-top: 50px;
+    font-weight: bold;    
+    font-size: 16px;
+    text-align: center;
+    color: rgb(42, 6, 75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+}
